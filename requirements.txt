@@ -1,5 +1,5 @@
 setuptools
-wheels
+wheel
 Flask
 pandas
 scikit-learn==1.4.2
