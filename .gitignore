@@ -1,0 +1,510 @@
+# Customer Churn Prediction - Git Ignore File
+
+# ============================================================================
+# GENERATED FILES - DO NOT COMMIT
+# ============================================================================
+
+# Trained Models
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+app/model.pkl
+models/
+
+# Predictions and Results
+scored_customers.csv
+predictions.csv
+results/
+output/
+
+# Log Files
+*.log
+logs/
+monitoring.log
+batch_scoring.log
+app.log
+error.log
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================================
+# DATA FILES (OPTIONAL - Uncomment if you don't want to commit data)
+# ============================================================================
+
+# Uncomment these if your data files are large or contain sensitive information
+# *.csv
+# *.xlsx
+# *.xls
+# *.json
+# *.parquet
+# data/
+# gold_churn_data.csv
+# all_customers.csv
+
+# Keep sample files (comment out to include in repo)
+# !sample_input.json
+
+# ============================================================================
+# IDE / EDITOR
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# PyCharm
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*~
+tags
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# DOCKER
+# ============================================================================
+
+# Docker files (uncomment if using Docker)
+# docker-compose.override.yml
+# .dockerignore
+
+# ============================================================================
+# CLOUD & DEPLOYMENT
+# ============================================================================
+
+# AWS
+.aws/
+*.pem
+
+# Google Cloud
+.gcloud/
+*.json
+
+# Azure
+.azure/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+
+# ============================================================================
+# MONITORING & METRICS
+# ============================================================================
+
+# Prometheus
+prometheus_data/
+
+# Grafana
+grafana_data/
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+cache/
+tmp/
+temp/
+
+# ============================================================================
+# SECURITY & SECRETS
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Secrets
+secrets/
+*.secret
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# API Keys
+api_keys.txt
+credentials.json
+service-account.json
+
+# ============================================================================
+# MACHINE LEARNING SPECIFIC
+# ============================================================================
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.checkpoint
+
+# TensorBoard logs
+runs/
+tensorboard/
+tb_logs/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# DVC (Data Version Control)
+.dvc/
+*.dvc
+
+# Experiment tracking
+experiments/
+trials/
+
+# Feature store
+feature_store/
+
+# Model registry
+model_registry/
+
+# ============================================================================
+# TESTING
+# ============================================================================
+
+# Test outputs
+test_results/
+test_output/
+.pytest_cache/
+.tox/
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ============================================================================
+# MISCELLANEOUS
+# ============================================================================
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large files (uncomment if needed)
+# *.csv
+# *.parquet
+# *.feather
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# ============================================================================
+# PROJECT SPECIFIC (KEEP THESE)
+# ============================================================================
+
+# Keep these files in the repository
+!requirements.txt
+!README.md
+!QUICKSTART.md
+!maintenance_plan.md
+!monitoring_strategy.md
+!PROJECT_STRUCTURE.md
+!PROJECT_SUMMARY.md
+!START_HERE.md
+!.gitignore
+
+# Keep sample data (small files only)
+!sample_input.json
+
+# Keep source code
+!train_model.py
+!batch_score.py
+!app/main.py
+
+# ============================================================================
+# NOTES
+# ============================================================================
+
+# This .gitignore is configured for a Machine Learning production project
+# 
+# What IS committed:
+# - Source code (.py files)
+# - Documentation (.md files)
+# - Configuration (requirements.txt)
+# - Sample data (sample_input.json)
+#
+# What is NOT committed:
+# - Trained models (.pkl files)
+# - Generated predictions (scored_customers.csv)
+# - Log files (*.log)
+# - Virtual environments (venv/, .venv/)
+# - IDE settings (.vscode/, .idea/)
+# - OS files (.DS_Store, Thumbs.db)
+# - Secrets and credentials (.env, *.key)
+#
+# To include data files in your repository:
+# Comment out the data file patterns above (*.csv, *.xlsx, etc.)
+#
+# To exclude specific large data files:
+# Add them explicitly: data/large_file.csv
